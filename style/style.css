@@ -1,0 +1,122 @@
+body {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  
+  #container {
+    width: 1000px;
+    font-size: 90%;
+    margin: 0 auto;
+  }
+  
+  #header {
+    padding: 20px;
+    height: 75px;
+    border: #00f dashed 1px;
+    background: #9cf;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #header img.icon {
+    width: 100px;
+  }
+  
+  #header img.header-text {
+    width: 150px;
+  }
+  
+  #header h1 {
+    padding: 10px;
+    color: #039;
+    font-family: "trebuchet ms", Arial, Helvetica, sans-serif;
+  }
+  
+  #sidebar {
+    border: #00f dashed 1px;
+    margin-top: 10px;
+    width: 150px;
+    float: left;
+    background: #9cf;
+  }
+  
+  #sidebar h3 {
+    color: #930;
+    padding-left: 10px;
+    font-family: "trebuchet ms", Arial, Helvetica, sans-serif;
+  }
+  
+  ul#navmenu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul#navmenu li {
+    margin-bottom: 5px;
+  }
+  
+  ul#navmenu a {
+    display: block;
+    width: auto;
+    height: auto;
+    background: #036;
+    padding: 5px 5px 3px;
+    text-align: left;
+    text-decoration: none;
+    color: #ec1;
+    cursor: pointer;
+  }
+  
+  ul#navmenu a:hover,
+  ul#navmenu a:focus,
+  ul#navmenu a:active {
+    background: #333;
+    color: #fff;
+  }
+  
+  ul#navmenu a.selected,
+  ul#navmenu a.selected:hover,
+  ul#navmenu a.selected:focus,
+  ul#navmenu a.selected:active {
+    background: #386088;
+    color: #fff;
+  }
+  
+  ul#navmenu a.selected {
+    text-align: right;
+    cursor: default;
+  }
+  
+  /* Pengaturan content */
+  #page {
+    border: #00f dashed 1px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 815px;
+    float: right;
+  }
+  
+  #page h2 {
+    color: #930;
+    font-family: "trebuchet ms", Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+    border: none;
+  }
+  
+  #clear {
+    clear: both;
+  }
+  
+  /* Pengaturan footer */
+  #footer {
+    border: #00f dashed 1px;
+    margin-top: 10px;
+    text-align: center;
+    background: #9cf;
+  }
+  
